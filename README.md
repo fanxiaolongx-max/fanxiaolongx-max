@@ -1,6 +1,6 @@
 # 这里是fanxiaolongx-max的blog库
 - 🔭 我在埃及，是一位网络工程师，工作中涉及的内容较多，技术方面也较为广泛。工作中，IMS/PS、NFV、docker、AI 、Vibe coding、windows、linux、python 都有涉及，网络作为本职工作主要负责核心网方向.
-- ⚡ 我喜欢开发各种奇奇怪怪的网站：[外卖点单系统](https://bobapro.life) ,[短信转发器](http://113.44.149.111:5000/), 撸猫 , 看电影, 开发微信小程序.
+- ⚡ 我喜欢开发各种奇奇怪怪的网站：[外卖点单系统](https://bobapro.life) ,[短信转发器](http://113.44.149.111:5000/), [匿名聊天室](http://113.44.149.111:4000/), 撸猫 , 看电影, 开发微信小程序.
 - 👯 [这里](https://bobapro.life/blog.html)是我的博客.
 ### 🛠 My Tech Stack
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,ts,vue,react,nextjs,nodejs,bun,pnpm,wasm,go,rust,py,java,cpp,c,cs,dart,flutter,kotlin,swift,php,laravel,mysql,postgres,mongodb,redis,firebase,supabase,docker,kubernetes,aws,azure,gcp,vercel,git,github,githubactions,vscode,idea,pycharm,figma,ps,ai,xd,ae,pr,blender,unity,unreal,linux,ubuntu,arch,windows,bash,powershell)](http://fanxiaolong.uk)
