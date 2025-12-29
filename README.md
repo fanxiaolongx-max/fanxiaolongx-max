@@ -1,6 +1,6 @@
 # 这里是fanxiaolongx-max的blog库
 - 🔭 我在埃及，是一位网络工程师，工作中涉及的内容较多，技术方面也较为广泛。工作中，windows server、linux、python 都有涉及，网络作为本职工作主要负责核心网方向
-- ⚡ 我喜欢[跑步](https://wangqiang1988.github.io/running_page/),游戏，钓鱼（路亚、小物），电影（动作、英美短剧），骑车（通勤），网上瞎看
+- ⚡ 我喜欢[开发各种奇怪的网站：外卖点单系统](https://bobapro.life), 撸猫 ，电影
 - 👯 [这里](https://bobapro.life/blog.html)是我的博客
 
 <!--
