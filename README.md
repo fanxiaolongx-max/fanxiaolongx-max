@@ -2,8 +2,6 @@
 - 🔭 我在埃及，是一位网络工程师，工作中涉及的内容较多，技术方面也较为广泛。工作中，windows server、linux、python 都有涉及，网络作为本职工作主要负责核心网方向
 - ⚡ 我喜欢[开发各种奇怪的网站：外卖点单系统](https://bobapro.life), 撸猫 ，电影
 - 👯 [这里](https://bobapro.life/blog.html)是我的博客
-- 👯 [这里](https://github-readme-stats.vercel.app/api?username=fanxiaolongx-max)是我的✨
-
 
 <!--
 **fanxiaolongx-max/fanxiaolongx-max** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
