@@ -5,7 +5,8 @@
 ### 🛠 My Tech Stack
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,ts,vue,react,nextjs,nodejs,bun,pnpm,wasm,go,rust,py,java,cpp,c,cs,dart,flutter,kotlin,swift,php,laravel,mysql,postgres,mongodb,redis,firebase,supabase,docker,kubernetes,aws,azure,gcp,vercel,git,github,githubactions,vscode,idea,pycharm,figma,ps,ai,xd,ae,pr,blender,unity,unreal,linux,ubuntu,arch,windows,bash,powershell)](http://fanxiaolong.uk)
 ### 【埃旅小工具/奶茶/超市点单系统】
-<img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/486b44f8-3df8-4237-962d-a9bede62ffe4" /></img> 
+<img width="100" height="100" alt="d4afebc148dca9610ac18ef4e0ea6f0b2727fad2" src="https://github.com/user-attachments/assets/618faeff-6097-4c00-915c-99feee6ace0f" />
 <img width="100" height="100" alt="qrcode_boda-t0amgq fly dev" src="https://github.com/user-attachments/assets/de0adc84-05dc-4ec3-ac1f-ddbf22e93f8c" />
 <img width="100" height="100" alt="qrcode_boda-0mqtrq fly dev" src="https://github.com/user-attachments/assets/04f1579f-0e4e-49c5-a3f8-962c9bcb3a2c" />
 <img width="100" height="100" alt="qrcode_boda-3xyulq fly dev" src="https://github.com/user-attachments/assets/c3d0b79b-f8af-49e9-8372-8e360657291c" />
+
