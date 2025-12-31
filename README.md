@@ -1,6 +1,18 @@
-# 这里是fanxiaolongx-max的blog库
-- 🔭 我在埃及，是一位网络工程师，工作中涉及的内容较多，技术方面也较为广泛。工作中 <img width="56" height="20" alt="image" src="https://github.com/user-attachments/assets/7186f1cb-4332-4b66-b7a1-ffa86a2fd598" /> <img width="60" height="20" alt="image" src="https://github.com/user-attachments/assets/fedec156-6c70-44eb-af3e-8dff62ffa9eb" /> <img width="78" height="20" alt="image" src="https://github.com/user-attachments/assets/181ce6a3-a420-431e-8a26-e1a87949399f" />
-- 🤖 Vibe coding、windows、linux、python 都有涉及，网络作为本职工作主要负责核心网方向.
+<div align="center">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="100" />
+  <h1>Hi there, I'm <a href="https://github.com/fanxiaolongx-max">DRAGON</a> 👋</h1>
+
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=20C20E&center=true&vCenter=true&width=435&lines=Full+Stack+Developer;Always+learning+new+tech;Open+Source+Enthusiast" alt="Typing SVG" />
+  </a>
+</div>
+
+---
+
+- 🔭 I’m currently working **2/3/4/5G CORE Network Engineer, Especially force on VoLTE/VoNR** <img width="56" height="20" alt="image" src="https://github.com/user-attachments/assets/7186f1cb-4332-4b66-b7a1-ffa86a2fd598" /> <img width="60" height="20" alt="image" src="https://github.com/user-attachments/assets/fedec156-6c70-44eb-af3e-8dff62ffa9eb" /> <img width="78" height="20" alt="image" src="https://github.com/user-attachments/assets/181ce6a3-a420-431e-8a26-e1a87949399f" /> **Domain**
+- 🌱 I’m currently learning **Docker、AI 、Vibe coding、windows、linux、python**
+- 💬 Ask me about **IMS RFC3261 Protocol**
+- 📫 How to reach me: **dragon@fanxiaolong.uk**
 - ⚡ 我喜欢开发各种奇奇怪怪的网站：[外卖点单系统](https://bobapro.life), [IMS服务器](http://113.44.149.111:8888/) ,[短信转发器](http://113.44.149.111:5000/), [餐厅看板](https://canting-demo.fly.dev/) , [匿名聊天室](http://113.44.149.111:4000/), 撸猫 , 看电影, 开发微信小程序.
 - 👯 [这里](https://bobapro.life/blog.html)是我的博客. [这里](https://fanxiaolongx-max.github.io/privacy-policy/)是我的HTML工具集中营。
 ### 🛠 My Tech Stack
@@ -10,4 +22,42 @@
 <img width="100" height="100" alt="qrcode_boda-t0amgq fly dev" src="https://github.com/user-attachments/assets/de0adc84-05dc-4ec3-ac1f-ddbf22e93f8c" />
 <img width="100" height="100" alt="qrcode_boda-0mqtrq fly dev" src="https://github.com/user-attachments/assets/04f1579f-0e4e-49c5-a3f8-962c9bcb3a2c" />
 <img width="100" height="100" alt="qrcode_boda-3xyulq fly dev" src="https://github.com/user-attachments/assets/c3d0b79b-f8af-49e9-8372-8e360657291c" />
+
+<h3 align="center">🛠 Languages and Tools</h3>
+<div align="center">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" />
+</div>
+
+### ⚖️ 法律条款
+
+| 文件名 | 链接 |
+| :--- | :--- |
+| 🛡️ 隐私政策 | [![Privacy](https://img.shields.io/badge/View-Privacy_Policy-blue?style=flat-square)](https://fanxiaolongx-max.github.io/privacy-policy/privacy.html) |
+| 📜 服务条款 | [![Terms](https://img.shields.io/badge/View-Terms_of_Service-blue?style=flat-square)](https://fanxiaolongx-max.github.io/privacy-policy/terms.html) |
+
+### 🚀 功能演示 (Demos)
+
+| 功能名称 | 类型 | 在线演示 |
+| :--- | :--- | :--- |
+| **合同倒数** | ⏳ 工具 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=clockify&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/合同倒数DEMO.html) |
+| **地址比对** | 🗺️ 地理 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=googlemaps&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/地址比对DEMO.html) |
+| **外卖流程** | 🛵 仿真 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=ubereats&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/外卖流程DEMO.html) |
+| **报告解析** | 📄 分析 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=googlefiles&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/报告解析DEMO.html) |
+| **文档总结** | 📝 文本 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=notion&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/文档总结DEMO.html) |
+| **汇率监控** | 💱 金融 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=bitcoin&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/汇率监控DEMO.html) |
+| **泡泡图表** | 🫧 可视化 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=d3.js&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/泡泡图表DEMO.html) |
+| **表格可视** | 📊 可视化 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=microsoftexcel&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/表格可视DEMO.html) |
+| **链路分析** | 🔗 分析 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=analogue&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/链路分析DEMO.html) |
+
+
+
+
+# 这里是fanxiaolongx-max的blog库
+- 🔭 我在埃及，是一位网络工程师，工作中涉及的内容较多，技术方面也较为广泛。工作中 
+- 🤖 Vibe coding、windows、linux、python 都有涉及，网络作为本职工作主要负责核心网方向.
+
 
