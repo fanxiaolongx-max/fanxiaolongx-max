@@ -2,7 +2,7 @@
   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="100" />
   <h1>Hi there, I'm <a href="https://github.com/fanxiaolongx-max">DRAGON</a> 👋</h1>
 
-  <a href="https://git.io/typing-svg">
+  <a href="https://github.com/fanxiaolongx-max">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=20C20E&center=true&vCenter=true&width=435&lines=Full+Stack+Developer;Always+learning+new+tech;Open+Source+Enthusiast" alt="Typing SVG" />
   </a>
 </div>
@@ -10,7 +10,7 @@
 ---
 
 - 🔭 I’m currently working **2/3/4/5G CORE Network Engineer, Especially force on VoLTE/VoNR** <img width="56" height="20" alt="image" src="https://github.com/user-attachments/assets/7186f1cb-4332-4b66-b7a1-ffa86a2fd598" /> <img width="60" height="20" alt="image" src="https://github.com/user-attachments/assets/fedec156-6c70-44eb-af3e-8dff62ffa9eb" /> <img width="78" height="20" alt="image" src="https://github.com/user-attachments/assets/181ce6a3-a420-431e-8a26-e1a87949399f" />
-- 🌱 I’m currently learning **Docker、AI 、Vibe coding、windows、linux、python**
+- 🌱 I’m currently learning **AI 、Vibe coding、windows、linux、python**
 - 💬 Ask me about **IMS RFC3261 Protocol**
 - 📫 How to reach me: **dragon@fanxiaolong.uk**
 - ⚡ 我喜欢开发各种奇奇怪怪的网站：[外卖点单系统](https://bobapro.life), [IMS服务器](http://113.44.149.111:8888/) ,[短信转发器](http://113.44.149.111:5000/), [餐厅看板](https://canting-demo.fly.dev/) , [匿名聊天室](http://113.44.149.111:4000/), 撸猫 , 看电影, 开发微信小程序.
@@ -52,12 +52,3 @@
 | **泡泡图表** | 🫧 可视化 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=d3.js&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/泡泡图表DEMO.html) |
 | **表格可视** | 📊 可视化 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=microsoftexcel&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/表格可视DEMO.html) |
 | **链路分析** | 🔗 分析 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=analogue&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/链路分析DEMO.html) |
-
-
-
-
-# 这里是fanxiaolongx-max的blog库
-- 🔭 我在埃及，是一位网络工程师，工作中涉及的内容较多，技术方面也较为广泛。工作中 
-- 🤖 Vibe coding、windows、linux、python 都有涉及，网络作为本职工作主要负责核心网方向.
-
-
