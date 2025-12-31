@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="100" />
+  <a href="https://github.com/fanxiaolongx-max"><img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="100" />
   <h1>Hi there, I'm <a href="https://github.com/fanxiaolongx-max">DRAGON</a> 👋</h1>
 
   <a href="https://github.com/fanxiaolongx-max">
