@@ -44,6 +44,7 @@
 | 功能名称 | 类型 | 在线演示 |
 | :--- | :--- | :--- |
 | **文档压缩** | ⏳ 工具 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=clockify&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/文档压缩DEMO.html) |
+| **文档编辑** | ⏳ 工具 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=clockify&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/文档编辑DEMO.html) |
 | **合同倒数** | ⏳ 工具 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=clockify&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/合同倒数DEMO.html) |
 | **编码补零** | ⏳ 工具 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=clockify&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/编码补零DEMO.html) |
 | **地址比对** | 🗺️ 地理 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=googlemaps&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/地址比对DEMO.html) |
