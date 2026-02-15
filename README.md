@@ -15,6 +15,7 @@
 - 📫 How to reach me: **dragon@fanxiaolong.uk**
 - ⚡ 我喜欢开发各种奇奇怪怪的网站：[外卖点单系统](https://bobapro.life), [IMS服务器](http://113.44.149.111:8888/) ,[短信转发器](https://113.44.149.111/), [餐厅看板](https://canting-demo.fly.dev/) , [匿名聊天室](http://113.44.149.111:4000/), 撸猫 , 看电影, 开发微信小程序.
 - 👯 [这里](https://bobapro.life/blog.html)是我的博客. [这里](https://fanxiaolongx-max.github.io/privacy-policy/)是我的HTML工具集中营。
+- ⚡2026马年新鲜出炉！[AI远程手机控制智能体：]([https://bobapro.life/blog.html](https://fanxiaolongx-max.github.io/privacy-policy/AI.html)) 基于AutoGLM二次开发。
 ### 🛠 My Tech Stack
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,ts,vue,react,nextjs,nodejs,bun,pnpm,wasm,go,rust,py,java,cpp,c,cs,dart,flutter,kotlin,swift,php,laravel,mysql,postgres,mongodb,redis,firebase,supabase,docker,kubernetes,aws,azure,gcp,vercel,git,github,githubactions,vscode,idea,pycharm,figma,ps,ai,xd,ae,pr,blender,unity,unreal,linux,ubuntu,arch,windows,bash,powershell)](http://fanxiaolong.uk)
 ### 【埃旅小工具/奶茶/超市点单系统】
@@ -58,3 +59,5 @@
 | **容灾倒换** | 📄 分析 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=googlefiles&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/容灾倒换DEMO.html) |
 | **阴宅风水** | 📄 分析 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=googlefiles&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/阴宅风水DEMO.html) |
 | **流浪猫咪** | 🗺️ 地理 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=googlemaps&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/homeless_cat.html) |
+| **手机远程** | 📄 分析 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=googlefiles&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/AI.html) |
+
