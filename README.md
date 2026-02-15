@@ -17,7 +17,7 @@
 - 👯 [这里](https://bobapro.life/blog.html)是我的博客. [这里](https://fanxiaolongx-max.github.io/privacy-policy/)是我的HTML工具集中营。
 - ⚡2026马年新鲜出炉！[AI远程手机控制智能体](https://fanxiaolongx-max.github.io/privacy-policy/AI.html) 基于AutoGLM二次开发。
 ### 🛠 My Tech Stack
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,ts,vue,react,nextjs,nodejs,bun,pnpm,wasm,go,rust,py,java,cpp,c,cs,dart,flutter,kotlin,swift,php,laravel,mysql,postgres,mongodb,redis,firebase,supabase,docker,kubernetes,aws,azure,gcp,vercel,git,github,githubactions,vscode,idea,pycharm,figma,ps,ai,xd,ae,pr,blender,unity,unreal,linux,ubuntu,arch,windows,bash,powershell)](http://fanxiaolong.uk)
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,ts,vue,react,nextjs,nodejs,bun,pnpm,wasm,go,rust,py,java,cpp,c,cs,dart,flutter,kotlin,swift,php,laravel,mysql,postgres,mongodb,redis,firebase,supabase,docker,kubernetes,aws,azure,gcp,vercel,git,github,githubactions,vscode,idea,pycharm,figma,ps,ai,xd,ae,pr,blender,unity,unreal,linux,ubuntu,arch,windows,bash,powershell,css,js,ts)](http://fanxiaolong.uk)
 ### 【埃旅小工具/奶茶/超市点单系统】
 <img width="100" height="100" alt="d4afebc148dca9610ac18ef4e0ea6f0b2727fad2" src="https://github.com/user-attachments/assets/618faeff-6097-4c00-915c-99feee6ace0f" />
 <img width="100" height="100" alt="qrcode_boda-t0amgq fly dev" src="https://github.com/user-attachments/assets/de0adc84-05dc-4ec3-ac1f-ddbf22e93f8c" />
