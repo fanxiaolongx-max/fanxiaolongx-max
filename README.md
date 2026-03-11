@@ -60,4 +60,5 @@
 | **阴宅风水** | 📄 分析 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=googlefiles&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/阴宅风水DEMO.html) |
 | **流浪猫咪** | 🗺️ 地理 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=googlemaps&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/homeless_cat.html) |
 | **手机远程** | 📄 分析 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=googlefiles&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/AI.html) |
+| **告警梳理** | 📄 分析 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=googlefiles&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/alarm_dashboard.html) |
 
