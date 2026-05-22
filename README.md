@@ -27,29 +27,29 @@
 
 | 文件名 | 链接 |
 | :--- | :--- |
-| 🛡️ 隐私政策 | [![Privacy](https://img.shields.io/badge/View-Privacy_Policy-blue?style=flat-square)](https://fanxiaolongx-max.github.io/privacy-policy/privacy.html) |
-| 📜 服务条款 | [![Terms](https://img.shields.io/badge/View-Terms_of_Service-blue?style=flat-square)](https://fanxiaolongx-max.github.io/privacy-policy/terms.html) |
+| 🛡️ 隐私政策 | [![Privacy](https://img.shields.io/badge/View-Privacy_Policy-blue?style=flat-square)](https://fanxiaolongx-max.github.io/fanxiaolongx-max/privacy.html) |
+| 📜 服务条款 | [![Terms](https://img.shields.io/badge/View-Terms_of_Service-blue?style=flat-square)](https://fanxiaolongx-max.github.io/fanxiaolongx-max/terms.html) |
 
 ### 🚀 功能演示 (Demos)
 
 | 功能名称 | 类型 | 在线演示 |
 | :--- | :--- | :--- |
-| **文档压缩** | ⏳ 工具 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=clockify&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/文档压缩DEMO.html) |
-| **爬取脚本** | ⏳ 工具 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=clockify&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/UIVF12%20Catcher.html) |
-| **任务排查** | ⏳ 工具 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=clockify&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/Task%20SLA%20Killer.html) |
-| **文档编辑** | ⏳ 工具 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=clockify&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/文档编辑DEMO.html) |
-| **合同倒数** | ⏳ 工具 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=clockify&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/合同倒数DEMO.html) |
-| **编码补零** | ⏳ 工具 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=clockify&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/编码补零DEMO.html) |
-| **地址比对** | 🗺️ 地理 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=googlemaps&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/地址比对DEMO.html) |
-| **外卖流程** | 🛵 仿真 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=ubereats&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/外卖流程DEMO.html) |
-| **报告解析** | 📄 分析 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=googlefiles&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/报告解析DEMO.html) |
-| **文档总结** | 📝 文本 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=notion&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/文档总结DEMO.html) |
-| **汇率监控** | 💱 金融 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=bitcoin&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/汇率监控DEMO.html) |
-| **泡泡图表** | 🫧 可视化 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=d3.js&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/泡泡图表DEMO.html) |
-| **表格可视** | 📊 可视化 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=microsoftexcel&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/表格可视DEMO.html) |
-| **链路分析** | 🔗 分析 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=analogue&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/链路分析DEMO.html) |
-| **容灾倒换** | 📄 分析 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=googlefiles&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/容灾倒换DEMO.html) |
-| **阴宅风水** | 📄 分析 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=googlefiles&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/阴宅风水DEMO.html) |
-| **手机远程** | 📄 分析 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=googlefiles&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/AI.html) |
-| **告警梳理** | 📄 分析 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=googlefiles&logoColor=white)](https://fanxiaolongx-max.github.io/privacy-policy/alarm_dashboard.html) |
+| **文档压缩** | ⏳ 工具 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=clockify&logoColor=white)](https://fanxiaolongx-max.github.io/fanxiaolongx-max/文档压缩DEMO.html) |
+| **爬取脚本** | ⏳ 工具 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=clockify&logoColor=white)](https://fanxiaolongx-max.github.io/fanxiaolongx-max/UIVF12%20Catcher.html) |
+| **任务排查** | ⏳ 工具 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=clockify&logoColor=white)](https://fanxiaolongx-max.github.io/fanxiaolongx-max/Task%20SLA%20Killer.html) |
+| **文档编辑** | ⏳ 工具 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=clockify&logoColor=white)](https://fanxiaolongx-max.github.io/fanxiaolongx-max/文档编辑DEMO.html) |
+| **合同倒数** | ⏳ 工具 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=clockify&logoColor=white)](https://fanxiaolongx-max.github.io/fanxiaolongx-max/合同倒数DEMO.html) |
+| **编码补零** | ⏳ 工具 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=clockify&logoColor=white)](https://fanxiaolongx-max.github.io/fanxiaolongx-max/编码补零DEMO.html) |
+| **地址比对** | 🗺️ 地理 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=googlemaps&logoColor=white)](https://fanxiaolongx-max.github.io/fanxiaolongx-max/地址比对DEMO.html) |
+| **外卖流程** | 🛵 仿真 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=ubereats&logoColor=white)](https://fanxiaolongx-max.github.io/fanxiaolongx-max/外卖流程DEMO.html) |
+| **报告解析** | 📄 分析 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=googlefiles&logoColor=white)](https://fanxiaolongx-max.github.io/fanxiaolongx-max/报告解析DEMO.html) |
+| **文档总结** | 📝 文本 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=notion&logoColor=white)](https://fanxiaolongx-max.github.io/fanxiaolongx-max/文档总结DEMO.html) |
+| **汇率监控** | 💱 金融 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=bitcoin&logoColor=white)](https://fanxiaolongx-max.github.io/fanxiaolongx-max/汇率监控DEMO.html) |
+| **泡泡图表** | 🫧 可视化 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=d3.js&logoColor=white)](https://fanxiaolongx-max.github.io/fanxiaolongx-max/泡泡图表DEMO.html) |
+| **表格可视** | 📊 可视化 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=microsoftexcel&logoColor=white)](https://fanxiaolongx-max.github.io/fanxiaolongx-max/表格可视DEMO.html) |
+| **链路分析** | 🔗 分析 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=analogue&logoColor=white)](https://fanxiaolongx-max.github.io/fanxiaolongx-max/链路分析DEMO.html) |
+| **容灾倒换** | 📄 分析 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=googlefiles&logoColor=white)](https://fanxiaolongx-max.github.io/fanxiaolongx-max/容灾倒换DEMO.html) |
+| **阴宅风水** | 📄 分析 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=googlefiles&logoColor=white)](https://fanxiaolongx-max.github.io/fanxiaolongx-max/阴宅风水DEMO.html) |
+| **手机远程** | 📄 分析 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=googlefiles&logoColor=white)](https://fanxiaolongx-max.github.io/fanxiaolongx-max/AI.html) |
+| **告警梳理** | 📄 分析 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=googlefiles&logoColor=white)](https://fanxiaolongx-max.github.io/fanxiaolongx-max/alarm_dashboard.html) |
 
