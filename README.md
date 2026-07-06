@@ -52,4 +52,5 @@
 | **阴宅风水** | 📄 分析 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=googlefiles&logoColor=white)](https://fanxiaolongx-max.github.io/fanxiaolongx-max/阴宅风水DEMO.html) |
 | **手机远程** | 📄 分析 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=googlefiles&logoColor=white)](https://fanxiaolongx-max.github.io/fanxiaolongx-max/AI.html) |
 | **告警梳理** | 📄 分析 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=googlefiles&logoColor=white)](https://fanxiaolongx-max.github.io/fanxiaolongx-max/alarm_dashboard.html) |
+| **去旅行吧** | 📄 分析 | [![Demo](https://img.shields.io/badge/Launch-Demo-success?style=for-the-badge&logo=googlefiles&logoColor=white)](https://fanxiaolongx-max.github.io/fanxiaolongx-max/D400GO.html) |
 
