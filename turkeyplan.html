@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>✨ 我的土耳其浪漫之旅 ✨</title>
+    <style>
+        :root {
+            --primary: #ff7a90;
+            --primary-light: #fff0f3;
+            --secondary: #5ba3c1;
+            --secondary-light: #f0f7fa;
+            --accent: #ffb703;
+            --accent-light: #fefbe9;
+            --hotel-color: #4ea386;
+            --hotel-light: #f0f9f5;
+            --text-main: #4a3b40;
+            --text-muted: #9c8a90;
+            --bg-main: #faf6f0;
+            --card-bg: #ffffff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            background-color: var(--bg-main);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+            color: var(--text-main);
+            padding: 16px 12px;
+            line-height: 1.6;
+        }
+
+        /* 页头设计 */
+        .header {
+            text-align: center;
+            padding: 24px 10px 16px;
+        }
+        .header h1 {
+            font-size: 22px;
+            color: var(--primary);
+            margin-bottom: 6px;
+            letter-spacing: 1px;
+            display: inline-block;
+            position: relative;
+        }
+        .header p {
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+
+        /* 时间线容器 */
+        .timeline-container {
+            max-width: 500px;
+            margin: 0 auto;
+            position: relative;
+            padding-left: 8px;
+        }
+
+        /* 时间线左侧轴线 */
+        .timeline-container::before {
+            content: '';
+            position: absolute;
+            left: 18px;
+            top: 25px;
+            bottom: 25px;
+            width: 3px;
+            background: linear-gradient(to bottom, #ffccd5, #bee1e6, #e2ece9);
+            border-radius: 2px;
+        }
+
+        /* 卡片样式 */
+        .day-card {
+            background: var(--card-bg);
+            border-radius: 18px;
+            padding: 18px;
+            margin-bottom: 20px;
+            box-shadow: 0 6px 18px rgba(165, 135, 125, 0.08);
+            border: 1px solid rgba(255, 122, 144, 0.06);
+            position: relative;
+            margin-left: 28px;
+        }
+
+        /* 时间线上的可爱小圆点 */
+        .day-card::before {
+            content: '📍';
+            position: absolute;
+            left: -37px;
+            top: 16px;
+            font-size: 16px;
+            background: var(--bg-main);
+            padding: 2px;
+            border-radius: 50%;
+            z-index: 2;
+        }
+
+        /* 卡片头部 */
+        .day-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 12px;
+            border-bottom: 2px dashed var(--primary-light);
+            padding-bottom: 10px;
+        }
+        .day-badge {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .date {
+            font-size: 18px;
+            font-weight: bold;
+            color: var(--primary);
+        }
+        .weekday {
+            font-size: 12px;
+            color: var(--primary);
+            background: var(--primary-light);
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-weight: 600;
+        }
+
+        /* 城市流向胶囊 */
+        .route-flow {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 4px;
+            margin-bottom: 14px;
+            background: #fdfbf7;
+            padding: 8px;
+            border-radius: 10px;
+            border: 1px solid #f5efe6;
+        }
+        .city-tag {
+            font-size: 12px;
+            font-weight: 600;
+            color: #5a4b50;
+            background: #ffffff;
+            padding: 3px 8px;
+            border-radius: 6px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+        }
+        .arrow {
+            color: var(--primary);
+            font-size: 10px;
+            font-weight: bold;
+        }
+
+        /* 块标题 */
+        .section-title {
+            font-size: 13px;
+            font-weight: bold;
+            color: var(--secondary);
+            margin: 12px 0 6px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .section-title.hotel-title {
+            color: var(--hotel-color);
+        }
+
+        /* 行程活动列表 */
+        .activity-list {
+            list-style: none;
+            padding-left: 2px;
+        }
+        .activity-list li {
+            position: relative;
+            padding-left: 18px;
+            margin-bottom: 6px;
+            font-size: 13.5px;
+            color: var(--text-main);
+        }
+        .activity-list li::before {
+            content: '✦';
+            position: absolute;
+            left: 0;
+            color: var(--primary);
+            font-size: 11px;
+            top: 0px;
+        }
+        .activity-list li strong {
+            color: #111;
+        }
+
+        /* 交通卡片 */
+        .transport-box {
+            background: var(--secondary-light);
+            border-radius: 10px;
+            padding: 10px;
+            margin-top: 6px;
+        }
+        .trans-item {
+            font-size: 12.5px;
+            margin-bottom: 6px;
+            color: #4a5560;
+        }
+        .trans-item:last-child {
+            margin-bottom: 0;
+        }
+        .trans-route {
+            font-weight: 500;
+        }
+        .trans-detail {
+            color: var(--secondary);
+            font-weight: bold;
+        }
+        .trans-total {
+            border-top: 1px dashed #cedfe6;
+            padding-top: 4px;
+            margin-top: 4px;
+            font-weight: bold;
+            color: #2b6178;
+        }
+
+        /* 住宿卡片 */
+        .hotel-box {
+            background: var(--hotel-light);
+            padding: 8px 12px;
+            border-radius: 10px;
+            margin-top: 6px;
+            font-size: 13px;
+            font-weight: 600;
+            color: #2c6e56;
+            display: inline-block;
+            border: 1px dashed #c2e5d9;
+        }
+
+        /* 贴士卡片 */
+        .tips-box {
+            background: var(--accent-light);
+            border: 1px dashed #f2cc8f;
+            border-radius: 10px;
+            padding: 10px;
+            margin-top: 12px;
+            font-size: 12.5px;
+            color: #705315;
+            line-height: 1.5;
+        }
+        .tips-title {
+            font-weight: bold;
+            margin-bottom: 3px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>✨ 土耳其浪漫之旅 ✨</h1>
+        <p>🗺️ 移动端专属随身小路书</p>
+    </div>
+
+    <div class="timeline-container">
+
+        <!-- Day 1 -->
+        <div class="day-card">
+            <div class="day-header">
+                <div class="day-badge">
+                    <span class="date">7月22日</span>
+                    <span class="weekday">星期三</span>
+                </div>
+            </div>
+            <div class="route-flow">
+                <span class="city-tag">Cairo</span>
+                <span class="arrow">➔</span>
+                <span class="city-tag">Istanbul</span>
+                <span class="arrow">➔</span>
+                <span class="city-tag">Dalaman</span>
+            </div>
+            <div class="section-title">🎯 核心行程</div>
+            <ul class="activity-list">
+                <li>✈️ <strong>国际航班启程</strong></li>
+            </ul>
+            <div class="tips-box">
+                <div class="tips-title">⏰ 出发提醒</div>
+                21:45 开罗出发，记得提前值机哦！
+            </div>
+        </div>
+
+        <!-- Day 2 -->
+        <div class="day-card">
+            <div class="day-header">
+                <div class="day-badge">
+                    <span class="date">7月23日</span>
+                    <span class="weekday">星期四</span>
+                </div>
+            </div>
+            <div class="route-flow">
+                <span class="city-tag">Dalaman</span>
+                <span class="arrow">➔</span>
+                <span class="city-tag">Ölüdeniz</span>
+                <span class="arrow">➔</span>
+                <span class="city-tag">Fethiye</span>
+            </div>
+            <div class="section-title">🎯 核心行程</div>
+            <ul class="activity-list">
+                <li>抵达达拉曼机场，办理<strong>取车手续</strong></li>
+                <li>🪂 翱翔 <strong>Ölüdeniz 滑翔伞</strong></li>
+                <li>🌊 唯美 <strong>蓝湖</strong> 悠闲漫步</li>
+                <li>⚓ 漫游 Fethiye 港口 & 老城 (Paspatur)</li>
+                <li>🍽️ 享用当地风味晚餐</li>
+            </ul>
+            
+            <div class="section-title.hotel-title" style="color: var(--hotel-color); font-size: 13px; font-weight: bold; margin-top: 12px;">🏨 今日下榻</div>
+            <div class="hotel-box">🏠 Roome Hotel</div>
+
+            <div class="section-title">🚗 交通详情</div>
+            <div class="transport-box">
+                <div class="trans-item">
+                    <span class="trans-route">Dalaman机场 ➔ Ölüdeniz</span><br>
+                    <span class="trans-detail">约 63 km / 1小时</span>
+                </div>
+                <div class="trans-item" style="margin-top: 4px;">
+                    <span class="trans-route">Ölüdeniz ➔ Roome Hotel</span><br>
+                    <span class="trans-detail">约 15 km / 25分钟</span>
+                </div>
+                <div class="trans-item" style="margin-top: 4px;">
+                    <span class="trans-route">Roome Hotel ➔ Fethiye港口</span><br>
+                    <span class="trans-detail">🚶 步行约 5 分钟</span>
+                </div>
+            </div>
+
+            <div class="tips-box">
+                <div class="tips-title">💡 预约小贴士</div>
+                🪂 滑翔伞强烈建议提前预约时段：<br><strong>10:30 — 13:30</strong>
+            </div>
+        </div>
+
+        <!-- Day 3 -->
+        <div class="day-card">
+            <div class="day-header">
+                <div class="day-badge">
+                    <span class="date">7月24日</span>
+                    <span class="weekday">星期五</span>
+                </div>
+            </div>
+            <div class="route-flow">
+                <span class="city-tag">Fethiye</span>
+                <span class="arrow">➔</span>
+                <span class="city-tag">Kalkan</span>
+                <span class="arrow">➔</span>
+                <span class="city-tag">Kaputaş</span>
+                <span class="arrow">➔</span>
+                <span class="city-tag">Kaş</span>
+            </div>
+            <div class="section-title">🎯 核心行程</div>
+            <ul class="activity-list">
+                <li>🚗 驶入绝美 <strong>D400 海岸公路</strong></li>
+                <li>🏡 惬意游览 <strong>Kalkan 小镇</strong></li>
+                <li>🏖️ 绝美打卡点 <strong>Kaputaş Beach</strong></li>
+                <li>🧱 探访古朴的 <strong>Kaş 老城</strong></li>
+                <li>🌅 <strong>Antiphellos 古剧场</strong> 邂逅浪漫日落</li>
+                <li>🍽️ 港口边享用浪漫晚餐</li>
+            </ul>
+
+            <div class="section-title.hotel-title" style="color: var(--hotel-color); font-size: 13px; font-weight: bold; margin-top: 12px;">🏨 今日下榻</div>
+            <div class="hotel-box">🏠 Luff Suites</div>
+
+            <div class="section-title">🚗 交通详情</div>
+            <div class="transport-box">
+                <div class="trans-item">
+                    <span class="trans-route">Roome Hotel ➔ Kalkan</span> — <span class="trans-detail">79km/1h20m</span>
+                </div>
+                <div class="trans-item">
+                    <span class="trans-route">Kalkan ➔ Kaputaş Beach</span> — <span class="trans-detail">7km/10m</span>
+                </div>
+                <div class="trans-item">
+                    <span class="trans-route">Kaputaş Beach ➔ Luff Suites</span> — <span class="trans-detail">21km/25m</span>
+                </div>
+                <div class="trans-total">
+                    ✨ 全天自驾累计：约 107 km / 2小时
+                </div>
+            </div>
+
+            <div class="tips-box">
+                <div class="tips-title">⏱️ 停留建议</div>
+                • Kalkan小镇建议游玩 <strong>1小时</strong><br>
+                • Kaputaş Beach 建议停留 <strong>1.5 - 2小时</strong> 尽情享受沙滩
+            </div>
+        </div>
+
+        <!-- Day 4 -->
+        <div class="day-card">
+            <div class="day-header">
+                <div class="day-badge">
+                    <span class="date">7月25日</span>
+                    <span class="weekday">星期六</span>
+                </div>
+            </div>
+            <div class="route-flow">
+                <span class="city-tag">Kaş</span>
+                <span class="arrow">➔</span>
+                <span class="city-tag">Antalya</span>
+            </div>
+            <div class="section-title">🎯 核心行程</div>
+            <ul class="activity-list">
+                <li>🍳 享用元气满满的早餐</li>
+                <li>沿 D400 公路自驾前往安塔利亚</li>
+                <li>🚗 抵达<strong>安塔利亚机场还车</strong></li>
+                <li>🛫 <strong>18:00 乘坐航班飞往埃及</strong></li>
+            </ul>
+
+            <div class="section-title">🚗 交通详情</div>
+            <div class="transport-box">
+                <div class="trans-item">
+                    <span class="trans-route">Luff Suites ➔ Antalya机场</span><br>
+                    <span class="trans-detail">约 202 km / 3小时20分钟</span>
+                </div>
+            </div>
+
+            <div class="tips-box" style="background: #fff0f3; border-color: #ffccd5; color: #853847;">
+                <div class="tips-title">⚠️ 时间提醒</div>
+                • <strong>10:00 准时出发</strong><br>
+                • 约 <strong>13:30</strong> 必须抵达机场，务必预留充足的还车、检查以及机场值机排队时间！
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
