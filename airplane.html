@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✈️ 赛博风水 - 航班吉凶排盘</title>
+    <style>
+        :root {
+            --primary-gold: #f5c518;
+            --neon-cyan: #0ff;
+            --bg-dark: #0a0a0f;
+            --glass-bg: rgba(20, 20, 30, 0.85);
+        }
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif;
+            background-color: var(--bg-dark);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        /* 动态星空/气场背景 */
+        .aura-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: radial-gradient(circle at 50% 50%, #1a1a2e 0%, #000000 100%);
+            z-index: -2;
+        }
+
+        .mystic-circle {
+            position: absolute;
+            width: 80vw;
+            height: 80vw;
+            max-width: 600px;
+            max-height: 600px;
+            border: 2px dashed rgba(245, 197, 24, 0.15);
+            border-radius: 50%;
+            animation: slowSpin 40s linear infinite;
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        /* 主容器：毛玻璃效果 */
+        .container {
+            background: var(--glass-bg);
+            border: 1px solid rgba(245, 197, 24, 0.3);
+            box-shadow: 0 0 40px rgba(0, 255, 255, 0.1), inset 0 0 20px rgba(245, 197, 24, 0.05);
+            backdrop-filter: blur(12px);
+            border-radius: 20px;
+            padding: 35px 30px;
+            width: 90%;
+            max-width: 400px;
+            text-align: center;
+            position: relative;
+        }
+
+        h1 {
+            font-size: 1.4rem;
+            color: var(--primary-gold);
+            text-shadow: 0 0 10px rgba(245, 197, 24, 0.6);
+            margin-bottom: 20px;
+            letter-spacing: 2px;
+        }
+
+        /* 太极八卦阵动画 */
+        .taiji-spinner {
+            font-size: 50px;
+            color: var(--neon-cyan);
+            text-shadow: 0 0 20px var(--neon-cyan);
+            margin: 0 auto 20px auto;
+            display: inline-block;
+            transition: all 0.3s ease;
+        }
+
+        .spin-slow {
+            animation: spin 12s linear infinite;
+        }
+
+        .spin-fast {
+            animation: spin 0.3s linear infinite;
+            color: var(--primary-gold);
+            text-shadow: 0 0 40px var(--primary-gold);
+            transform: scale(1.3);
+        }
+
+        /* 输入框样式 */
+        .input-group {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 0.85rem;
+            color: #bbb;
+            letter-spacing: 1px;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 12px;
+            background: rgba(0, 0, 0, 0.6);
+            border: 1px solid #444;
+            border-radius: 8px;
+            color: #fff;
+            font-size: 1rem;
+            box-sizing: border-box;
+            transition: all 0.3s ease;
+            outline: none;
+            text-transform: uppercase;
+            font-family: monospace;
+        }
+
+        .input-group input:focus {
+            border-color: var(--neon-cyan);
+            box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+        }
+
+        /* 赛博起卦按钮 */
+        button {
+            background: rgba(245, 197, 24, 0.1);
+            color: var(--primary-gold);
+            border: 1px solid var(--primary-gold);
+            padding: 12px 0;
+            width: 100%;
+            font-size: 1.1rem;
+            font-weight: bold;
+            letter-spacing: 4px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background: var(--primary-gold);
+            color: #000;
+            box-shadow: 0 0 20px rgba(245, 197, 24, 0.6);
+        }
+
+        /* 结果展示区 */
+        #result-box {
+            margin-top: 25px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 12px;
+            border-left: 4px solid var(--primary-gold);
+            display: none;
+            opacity: 0;
+            transform: translateY(15px);
+            transition: all 0.5s ease;
+        }
+
+        #result-box.show {
+            display: block;
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .hexagram {
+            font-size: 1.8rem;
+            color: var(--primary-gold);
+            margin-bottom: 5px;
+        }
+
+        .fortune-text {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #fff;
+        }
+
+        /* 准点率高亮面板 */
+        .rate-panel {
+            background: rgba(0, 255, 255, 0.05);
+            border: 1px solid rgba(0, 255, 255, 0.3);
+            border-radius: 8px;
+            padding: 15px 10px;
+            margin-bottom: 15px;
+            box-shadow: inset 0 0 10px rgba(0, 255, 255, 0.1);
+        }
+
+        .rate-title {
+            font-size: 0.85rem;
+            color: #aaa;
+            margin-bottom: 5px;
+            letter-spacing: 1px;
+        }
+
+        .rate-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: var(--neon-cyan);
+            text-shadow: 0 0 20px rgba(0, 255, 255, 0.8);
+            font-family: monospace;
+        }
+
+        .details {
+            font-size: 0.9rem;
+            color: #ccc;
+            line-height: 1.8;
+            text-align: left;
+        }
+
+        .details span {
+            color: var(--primary-gold);
+            font-weight: bold;
+        }
+
+        /* 动画定义 */
+        @keyframes spin { 100% { transform: rotate(360deg); } }
+        @keyframes slowSpin { 100% { transform: rotate(-360deg); } }
+
+    </style>
+</head>
+<body>
+
+    <div class="aura-background"></div>
+    <div class="mystic-circle"></div>
+
+    <div class="container">
+        <h1>✈️ 航班吉凶排盘系统</h1>
+        
+        <div class="taiji-spinner spin-slow" id="taiji">☯</div>
+
+        <div class="input-group">
+            <label>航班代号</label>
+            <input type="text" id="flightNum" value="TK687" placeholder="输入航班号..." autocomplete="off">
+        </div>
+
+        <div class="input-group">
+            <label>起飞吉日</label>
+            <input type="date" id="flightDate" value="2026-07-23">
+        </div>
+
+        <button onclick="startDivination()" id="divineBtn">接入星轨 测算运程</button>
+
+        <div id="result-box">
+            <div class="hexagram" id="hexagramSymbol">䷀</div>
+            <div class="fortune-text" id="fortuneResult">正在连线计算...</div>
+            
+            <div class="rate-panel">
+                <div class="rate-title">AI星象预测准点率</div>
+                <div class="rate-number" id="onTimeRate">0.00%</div>
+            </div>
+
+            <div class="details" id="fortuneDetails">
+                </div>
+        </div>
+    </div>
+
+    <script>
+        const fortunes = [
+            { level: "上上吉", hexagram: "䷀ (乾为天)", text: "紫气东来，气流万里长明", desc: "引擎轰鸣如龙吟，此行得天之护佑。前序航班极其顺利，空域直行无阻。" },
+            { level: "大吉", hexagram: "䷊ (地天泰)", text: "阴阳交泰，塔台绿灯直行", desc: "航路磁场极佳，气流平稳如履平地。空域畅通无阻，落地或有提前之喜。" },
+            { level: "上吉", hexagram: "䷍ (火天大有)", text: "日照当空，利见贵人同行", desc: "此航班阳气盛极，驱散一切延误阴霾。落地后易遇好事，出行顺遂无忧。" },
+            { level: "吉", hexagram: "䷾ (水火既济)", text: "水火相融，万事按部就班", desc: "一切都在掌控之中的安稳之象。机组精神饱满，行程舒适，宜饮热茶静心。" }
+        ];
+
+        const elements = ["金 (利器破空)", "水 (气流顺滑)", "木 (生机勃勃)", "火 (动力强劲)", "土 (落地安稳)"];
+        const directions = ["正东 (迎紫气)", "东南 (顺风水)", "正南 (沐煦阳)", "西南 (得人和)", "正西 (纳金气)", "西北 (遇贵人)"];
+
+        // 准点率数字滚动特效函数
+        function animateValue(obj, start, end, duration) {
+            let startTimestamp = null;
+            const step = (timestamp) => {
+                if (!startTimestamp) startTimestamp = timestamp;
+                const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+                // 缓动算法，让数字最后跳得慢一点
+                const easeOutQuart = 1 - Math.pow(1 - progress, 4);
+                const currentVal = (start + (end - start) * easeOutQuart).toFixed(2);
+                obj.innerHTML = currentVal + '%';
+                if (progress < 1) {
+                    window.requestAnimationFrame(step);
+                } else {
+                    obj.innerHTML = end.toFixed(2) + '%';
+                }
+            };
+            window.requestAnimationFrame(step);
+        }
+
+        function startDivination() {
+            const flightNum = document.getElementById('flightNum').value.trim().toUpperCase();
+            const flightDate = document.getElementById('flightDate').value;
+            const taiji = document.getElementById('taiji');
+            const resultBox = document.getElementById('result-box');
+            const btn = document.getElementById('divineBtn');
+            const rateDisplay = document.getElementById('onTimeRate');
+
+            if (!flightNum || !flightDate) {
+                alert("阵法缺少关键参数：请输入航班号与日期！");
+                return;
+            }
+
+            resultBox.classList.remove('show');
+            btn.innerText = "星象数据推演中...";
+            btn.style.pointerEvents = "none";
+            
+            // 激活狂暴旋转
+            taiji.classList.remove('spin-slow');
+            taiji.classList.add('spin-fast');
+            rateDisplay.innerText = "0.00%";
+
+            setTimeout(() => {
+                let seed = 0;
+                const combined = flightNum + flightDate;
+                for (let i = 0; i < combined.length; i++) {
+                    seed += combined.charCodeAt(i);
+                }
+
+                // 信心拉满的准点率算法：确保在 98.50% 到 99.99% 之间
+                let baseRate = 98.5 + (seed % 15) / 10; 
+                let decimalRate = (seed % 100) / 100;
+                let finalRate = parseFloat((baseRate + decimalRate).toFixed(2));
+                if (finalRate >= 100) finalRate = 99.99; 
+
+                const fortune = fortunes[seed % fortunes.length];
+                const element = elements[seed % elements.length];
+                const luckyDir = directions[seed % directions.length];
+                const seatNum = (seed % 9) + 1; 
+
+                document.getElementById('hexagramSymbol').innerText = fortune.hexagram;
+                document.getElementById('fortuneResult').innerText = `【${fortune.level}】 ${fortune.text}`;
+                
+                document.getElementById('fortuneDetails').innerHTML = `
+                    运程批语：${fortune.desc}<br><br>
+                    ⚛️ 本机五行：<span>${element}</span><br>
+                    🧭 迎客吉位：<span>${luckyDir}</span><br>
+                    💺 幸运用座：尾数带 <span>${seatNum}</span> 或 <span>${(seatNum+3)%10}</span><br>
+                    🛡️ 护航指南：<span>值机顺利，气场极佳</span>
+                `;
+
+                // 停止旋转，展示结果面板
+                taiji.classList.remove('spin-fast');
+                taiji.classList.add('spin-slow');
+                btn.innerText = "重新测算";
+                btn.style.pointerEvents = "auto";
+                
+                resultBox.classList.add('show');
+
+                // 触发数字跳动特效 (从0跳到最终数值，耗时1500毫秒)
+                animateValue(rateDisplay, 0, finalRate, 1500);
+
+            }, 1500); 
+        }
+    </script>
+</body>
+</html>
